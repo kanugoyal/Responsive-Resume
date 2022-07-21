@@ -183,6 +183,19 @@ p
     flex-direction: row;
     margin: 20px 0;
 }
+.about .box .project
+{
+    min-width: 150px;
+}
+.about .box .project h4
+{
+    color: #848c99;
+    font-weight: 600;
+}
+.about .box .text h5
+{
+    color: #333;
+}
 .skills .box
 {
     position: relative;
@@ -213,11 +226,22 @@ p
     height: 100px;
     background: #03a9f4;
 }
-.strenghts h4
+.certificate ul li
 {
+    list-style: none;
+    color: #333;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.strengths ul li
+{
+    list-style: none;
     position: relative;
     width: 10px;
     margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+    margin: 10px 0;
 
 }
 .interest ul
@@ -237,4 +261,5 @@ p
 {
     color: #03a9f4;
     font-size: 18px;
+    margin-right: 10px;
 }
