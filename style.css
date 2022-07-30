@@ -33,6 +33,10 @@ a:link{color:inherit;}
     background: #003147;
     padding: 42px
 }
+a {
+    color: #fff;
+    text-decoration: none;
+}
 .profileText
 {
     position: relative;
@@ -159,6 +163,10 @@ a:link{color:inherit;}
     position: relative;
     background: #fff;
     padding: 40px
+}
+a {
+    color: #333;
+    text-decoration: none;
 }
 .about
 {
