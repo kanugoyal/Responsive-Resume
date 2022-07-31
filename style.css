@@ -33,10 +33,7 @@ body
     background: #003147;
     padding: 42px
 }
-a {
-    color: #fff;
-    text-decoration: none;
-}
+
 .profileText
 {
     position: relative;
@@ -164,10 +161,7 @@ a {
     background: #fff;
     padding: 40px
 }
-a {
-    color: #333;
-    text-decoration: none;
-}
+
 .about
 {
     margin-bottom: 50px;
@@ -202,11 +196,13 @@ p
 {
     color: #848c99;
     font-weight: 500;
+    
 }
 .about .box .text h5
 {
     color: #333;
     font-weight: 400;
+    justify-content: center;
 }
 .skills .box
 {
@@ -224,7 +220,15 @@ p
     font-weight: 500;
     margin-right: 50px;
 }
-
+.skills .box h4 .btn
+{
+    border-color:#003147 ;
+    background-color: inherit;
+    text-align: center;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline-block;
+}
 
 .certificate ul li
 {
