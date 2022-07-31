@@ -236,9 +236,9 @@ p h5
 .skills .box h4 .btn
 {
     display: grid;
-    grid-template-columns: repeat(5,50px);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-template-columns: repeat(5,20px);
+    grid-auto-rows: 10px;
+    grid-gap: 3px;
     border-color:#f0f4fa ;
     background-color: inherit;
     text-align: center;
