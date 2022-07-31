@@ -185,7 +185,7 @@ p
 p h5
 {
     color: #333;
-    font-weight: 300;
+    font-weight: 400;
 }
 .about .box
 {
@@ -209,7 +209,7 @@ p h5
     width: 6px;
     font-size:9px;
     color: #848c99;
-    margin-right: 1px;
+    margin-right: 2px;
 }
 .about .box .text h5
 {
