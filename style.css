@@ -222,12 +222,13 @@ p
 }
 .skills .box h4 .btn
 {
-    border-color:#003147 ;
+    border-color:#848c99 ;
     background-color: inherit;
     text-align: center;
-    padding: 14px 28px;
+    padding: 4px 8px;
     cursor: pointer;
     display: inline-block;
+    margin: 2px 2px;
 }
 
 .certificate ul li
