@@ -240,8 +240,7 @@ p h5
     text-align: center;
     padding: 4px 6px;
     cursor: pointer;
-    display: grid;
-    
+    display: inline;
     margin: 2px 2px;
 }
 
