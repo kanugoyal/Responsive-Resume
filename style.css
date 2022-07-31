@@ -202,14 +202,14 @@ p
 {
     display: inline-block;
     width: 10px;
-    font-size:5px;
+    font-size:20px;
     color: #848c99;
 }
 .about .box .text h5
 {
     color: #333;
     font-weight: 400;
-    justify-content: center;
+    text-align: justify;
 }
 .skills .box
 {
@@ -229,7 +229,7 @@ p
 }
 .skills .box h4 .btn
 {
-    border-color:#848c99 ;
+    border-color:#d9dde3 ;
     background-color: inherit;
     text-align: center;
     padding: 4px 6px;
@@ -271,6 +271,12 @@ p
 .interest ul li
 {
     list-style: none;
+    color: #333;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.interest ul li h5
+{
     color: #333;
     font-weight: 400;
     margin: 10px 0;
