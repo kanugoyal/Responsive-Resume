@@ -198,6 +198,13 @@ p
     font-weight: 500;
     
 }
+.about .box .project h4 .icon
+{
+    display: inline-block;
+    width: 10px;
+    font-size:5px;
+    color: #848c99;
+}
 .about .box .text h5
 {
     color: #333;
@@ -208,8 +215,8 @@ p
 {
     position: relative;
     width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
+    
+    
     justify-content: center;
     align-items: center;
 }
@@ -217,17 +224,17 @@ p
 {
     text-transform: uppercase;
     color: #848c99;
-    font-weight: 500;
-    margin-right: 50px;
+    font-weight: 400;
+    margin-right: 10px;
 }
 .skills .box h4 .btn
 {
     border-color:#848c99 ;
     background-color: inherit;
     text-align: center;
-    padding: 4px 8px;
+    padding: 4px 6px;
     cursor: pointer;
-    display: inline-block;
+    display: inline;
     margin: 2px 2px;
 }
 
