@@ -240,7 +240,8 @@ p h5
     text-align: center;
     padding: 4px 6px;
     cursor: pointer;
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(5,20px);
     margin: 2px 2px;
 }
 
