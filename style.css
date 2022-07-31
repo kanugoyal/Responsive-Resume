@@ -235,16 +235,13 @@ p h5
 }
 .skills .box h4 .btn
 {
-    display: grid;
-    grid-template-columns: 7px 7px 7px ;
-    grid-template-rows: repeat(5,4px);
     
     border-color:#f0f4fa ;
     background-color: inherit;
     text-align: center;
     padding: 4px 6px;
     cursor: pointer;
-    
+    display: inline;
     margin: 2px 2px;
 }
 
