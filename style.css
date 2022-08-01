@@ -14,7 +14,15 @@ body
     align-items: center;
     min-height: 100vh;
 }
+.btn
+{
+    border-color:#f0f4fa ;
+    background-color:rgb(77, 104, 116)4 ;
+    text-align: center;
+    padding: 4px 6px;
+    color: #081921;
 
+}
 .container
 {
    position: relative;

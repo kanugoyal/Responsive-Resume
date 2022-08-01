@@ -1,5 +1,7 @@
-$(document).ready(function(){
-    $('#download').click(function(){
-        $('#resume').printThis();
-    });
-});
+function generatePDF(){
+    const element = document.getElementById("resume");
+
+    html2pdf()
+    .from(element)
+    .save();
+}
