@@ -1,5 +1,5 @@
 function generatePDF(){
-    const element = document.getElementById("resume");
+    const element = document.getElementsByClassName("container");
 
     html2pdf()
     .from(element)
