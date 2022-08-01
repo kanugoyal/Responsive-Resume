@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDELXYE1QX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-EDELXYE1QX');
@@ -16,225 +17,266 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
     <link rel=" stylesheet" href="style.css">
-    
+
 
 
 
 </head>
+
 <body>
-    <div class="download">
-       <button class="btnpdf" onclick="generatePDF()"><span class="icon"><i class="fa fa-download" aria-hidden="true"></i></span> Download</button>
+    <div class="base">
+        <div class="download">
+            <button class="btnpdf" onclick="generatePDF()"><span class="icon"><i class="fa fa-download"
+                        aria-hidden="true"></i></span> Download</button>
+        </div>
+
+        <div class="container" id="resume">
+            <div class="left_side">
+                <div class="profileText">
+                    <div class="imgbx">
+                        <img src="img.jpg">
+                    </div>
+                    <h4>Kanika Goyal <br><span>Python Developer</span></h4>
+                </div>
+                <div class="contactInfo">
+                    <h4 class="title">Contact Info</h4>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="text">+917976704275</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></i></span>
+                            <span class="text">goyalkanu25@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                            <span class="text"><a href="https://github.com/kanugoyal" target="_blank"
+                                    style="color:#FFF;text-decoration: none;">github.com/kanugoyal</a></span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                            <span class="text"><a href="https://www.linkedin.com/in/kanika-goyal25" target="_blank"
+                                    style="color:#FFF;text-decoration: none;">linkedin.com/in/kanika-goyal25</a></span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span class="text">Churu, Rajasthan, India</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="contactInfo education">
+                    <h4 class="title">Education</h4>
+                    <ul>
+                        <li>
+                            <h5>2021-2023</h5>
+                            <h4>MSc in Computer Sci.</h4>
+                            <h4>MGS University</h4>
+                            <h5></h5>
+                        </li>
+
+                        <li>
+                            <h5>2018-2021</h5>
+                            <h4>BSc in Maths</h4>
+                            <h4>MGS University</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contactInfo language">
+                    <h4 class="title">Languages</h4>
+                    <ul>
+                        <li>
+                            <span class="text">English</span>
+                            <span class="percent">
+                                <div style="width: 70%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">Hindi</span>
+                            <span class="percent">
+                                <div style="width: 90%;"></div>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right_side">
+                <div class="about">
+                    <h4 class="title2">Profile</h4>
+                    <p>
+                    <h5><span style="font-weight:normal">Entry-level Python Developer. Aiming to shape my development
+                            with programming software, writing codes and building projects.</span></h5>
+
+                    </p>
+                </div>
+                <div class="about">
+
+                    <div class="about skills">
+                        <h4 class="title2">Professional Skills</h4>
+                        <div class="rect">
+                            <h4><button class="btn">Python</button>
+                            </h4>
+                            <h4><button class="btn">Pandas</button>
+                            </h4>
+                            <h4><button class="btn">Opencv</button>
+                            </h4>
+                            <h4><button class="btn">Flask</button>
+                            </h4>
+                            <h4><button class="btn">Sql</button>
+                            </h4>
+                            <h4><button class="btn">Git</button>
+                            </h4>
+                        </div>
+                        <div class="rect">
+                            <h4><button class="btn">Html</button>
+                            </h4>
+                            <h4><button class="btn">CSS</button>
+                            </h4>
+
+                            <h4><button class="btn">Kivy</button>
+                            </h4>
+                            <h4><button class="btn">Photoshop</button>
+                            </h4>
+                            <h4><button class="btn">Illustrator</button>
+                            </h4>
+
+                        </div>
+
+
+                    </div>
+
+                    <h4 class="title2">Projects</h4>
+                    <div class="box">
+                        <div class="project">
+                            <h4><a href="https://github.com/kanugoyal/AiSpeechRecog" target="_blank"
+                                    style="color: #848c99;text-decoration: none;">Speech Recognition System</a><span
+                                    class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
+                        </div>
+                        <div class="text">
+                            <h5> Voice Assistant using Python. The assistant can open up the application like search
+                                Google, Wikipedia, and YouTube about the query, rings the alarm at the set time, play
+                                saved mp3 sound from the system, background music for mind relief, etc by just giving
+                                the voice command.
+
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="project">
+                            <h4><a href="https://github.com/kanugoyal/gitTasks/tree/developer" target="_blank"
+                                    style="color: #848c99; text-decoration: none;">SnapChat alike Filter </a><span
+                                    class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
+                        </div>
+                        <div class="text">
+                            <h5>Fun face filters with Python OpenCV.It uses Haar features and the Mediapipe features to
+                                detect mainly faces positions, eye positions, and nose positions and use hands as a
+                                virtual mouse. It uses this information to overlay different accessories on the faces.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="project">
+                            <h4><a href="https://github.com/kanugoyal/chatbot" target="_blank"
+                                    style="color: #848c99;text-decoration: none;">ChatBot</a><span class="icon"><i
+                                        class="fa fa-external-link" aria-hidden="true"></i></span></h4>
+                        </div>
+                        <div class="text">
+
+                            <h5>Python based ChatBot that answers the user's questions via text interface and voice
+                                recognition.Here I used the ChatterBot Python library, which is mainly developed for
+                                building chatbots.</h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="project">
+                            <h4><a href="https://github.com/kanugoyal/vehicle_count" target="_blank"
+                                    style="color: #848c99;text-decoration: none;">Vision-based vehicle detection and
+                                    counting system</a><span class="icon"><i class="fa fa-external-link"
+                                        aria-hidden="true"></i></span></h4>
+                        </div>
+                        <div class="text">
+                            <h5>Vehicle detection and counting system play an important role in traffic management. The
+                                proposed method uses the background subtraction technique to find foreground objects in
+                                a video sequence. To detect moving vehicles more accurately, several computer vision
+                                techniques, including thresholding and adaptive morphology operations, are then applied.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="project">
+                            <h4><a href="https://github.com/kanugoyal/kivy" target="_blank"
+                                    style="color: #848c99;text-decoration: none;">First Android App</a><span
+                                    class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
+                        </div>
+                        <div class="text">
+                            <h5>I tried my hands-on sample Kivy project (calculator).</h5>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="about certificate">
+                    <h4 class="title2">Certificates</h4>
+                    <ul>
+                        <li><h5> Google Digital Marketing 2020</h5></li>
+                    </ul>
+
+                </div>
+
+                <div class="about strengths">
+                    <h4 class="title2">Strengths</h4>
+                    <ul>
+                        <li>
+                            <h5><i class="fa fa-check-circle-o" aria-hidden="true"></i>Adaptability and Flexibility</h5>
+                        </li>
+                        <li>
+                            <h5><i class="fa fa-book" aria-hidden="true"></i>Commited to Lifelong Learning</h5>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="about interest">
+                    <h4 class="title2">Hobby</h4>
+                    <ul>
+                        <li>
+                            <h5><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Digital art</h5>
+                        </li>
+                        <li>
+                            <h5><i class="fa fa-google-wallet" aria-hidden="true"></i>Desgining</h5>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
     </div>
-    
-   <div class= "container" id="resume"> 
-     <div class="left_side">
-        <div class="profileText">
-            <div class="imgbx">
-                <img src="img.jpg" >
-            </div>
-            <h2>Kanika Goyal <br><span>Python Developer</span></h2>
-        </div>
-        <div class="contactInfo">
-            <h3 class="title">Contact Info</h3>
-            <ul>
-                <li>
-                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                    <span class="text">+917976704275</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></i></span>
-                    <span class="text">goyalkanu25@gmail.com</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-                    <span class="text"><a href = "https://github.com/kanugoyal" target="_blank" style="color:#FFF;text-decoration: none;">github.com/kanugoyal</a></span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                    <span class="text"><a href ="https://www.linkedin.com/in/kanika-goyal25" target="_blank" style="color:#FFF;text-decoration: none;">linkedin.com/in/kanika-goyal25</a></span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                    <span class="text">Churu, Rajasthan, India</span>
-                </li>
-            </ul>
-        </div>
-
-        
-        <div class="contactInfo education">
-            <h3 class="title">Education</h3>
-            <ul>
-                <li>
-                    <h5>2021-2023</h5>
-                    <h4>MSc in Computer Science</h4>
-                    <h4>MGS University</h4>
-                    <h5></h5>
-                </li>
-
-                <li>
-                    <h5>2018-2021</h5>
-                    <h4>BSc in Maths</h4>
-                    <h4>MGS University</h4>
-                </li>
-            </ul>
-        </div>
-
-        <div class="contactInfo language">
-            <h3 class="title">Languages</h3>
-            <ul>
-                <li>
-                    <span class="text">English</span>
-                    <span class="percent">
-                        <div style="width: 70%;"></div>
-                    </span>
-                </li>
-                <li>
-                    <span class="text">Hindi</span>
-                    <span class="percent">
-                        <div style="width: 90%;"></div>
-                    </span>
-                </li>
-            </ul>
-        </div>     
-     </div>
-
-     <div class="right_side">
-        <div class="about">
-            <h2 class="title2">Profile</h2>
-            <p><h5><span style="font-weight:normal">Entry-level Python Developer. Aiming to shape my development with programming software, writing codes and building projects.</span></h5>
-
-            </p>
-        </div>
-        <div class="about">
-
-            <div class="about skills">
-                <h2 class="title2">Professional Skills</h2>
-                <div class="box">
-                    <h4><button class="btn">Python</button>
-                    </h4>
-                    <h4><button class="btn">Pandas</button>
-                    </h4>
-                    <h4><button class="btn">Opencv</button>
-                    </h4>
-                    <h4><button class="btn">Flask</button>
-                    </h4>
-                    <h4><button class="btn">Sql</button>
-                    </h4>
-                    <h4><button class="btn">Git</button>
-                    </h4>
-                </div>
-                <div class="box">
-                    <h4><button class="btn">Html</button>
-                    </h4>
-                    <h4><button class="btn">CSS</button>
-                    </h4>
-                    
-                    <h4><button class="btn">Kivy</button>
-                    </h4>
-                    <h4><button class="btn">Photoshop</button>
-                    </h4>
-                    <h4><button class="btn">Illustrator</button>
-                    </h4>
-
-                </div>
-                
-    
-            </div>
-
-            <h2 class="title2">Projects</h2>
-            <div class="box">
-                <div class="project">
-                <h4><a href = "https://github.com/kanugoyal/AiSpeechRecog" target="_blank" style="color: #848c99;text-decoration: none;">Speech Recognition System</a><span class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
-                </div>
-                <div class="text">
-                    <h5> Voice Assistant using Python. The assistant can open up the application like search Google, Wikipedia, and YouTube about the query, rings the alarm at the set time, play saved mp3 sound from the system, background music for mind relief, etc by just giving the voice command.
-
-                    </h5>
-                </div>
-            </div>
-            <div class="box">
-                <div class="project">
-                <h4><a href = "https://github.com/kanugoyal/gitTasks/tree/developer" target="_blank" style="color: #848c99; text-decoration: none;">SnapChat alike Filter </a><span class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
-                </div>
-                <div class="text">
-                    <h5>Fun face filters with Python OpenCV.It uses Haar features and the Mediapipe features to detect mainly faces positions, eye positions, and nose positions and use hands as a virtual mouse. It uses this information to overlay different accessories on the faces.</h5>
-                </div>
-            </div>
-            <div class="box">
-                <div class="project">
-                <h4><a href = "https://github.com/kanugoyal/chatbot" target="_blank" style="color: #848c99;text-decoration: none;">ChatBot</a><span class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
-                </div>
-                <div class="text">
-                    
-                    <h5>Python based ChatBot that answers the user's questions via text interface and voice recognition.Here I used the ChatterBot Python library, which is mainly developed for building chatbots.</h5>
-                </div>
-            </div>
-            <div class="box">
-                <div class="project">
-                <h4><a href = "https://github.com/kanugoyal/vehicle_count" target="_blank" style="color: #848c99;text-decoration: none;">Vision-based vehicle detection and counting system</a><span class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
-                </div>
-                <div class="text">
-                    <h5>Vehicle detection and counting system play an important role in traffic management. The proposed method uses the background subtraction technique to find foreground objects in a video sequence. To detect moving vehicles more accurately, several computer vision techniques, including thresholding and adaptive morphology operations, are then applied.</h5>
-                </div>
-            </div>
-            <div class="box">
-                <div class="project">
-                <h4><a href = "https://github.com/kanugoyal/kivy" target="_blank" style="color: #848c99;text-decoration: none;">First Android App</a><span class="icon"><i class="fa fa-external-link" aria-hidden="true"></i></span></h4>
-                </div>
-                <div class="text">
-                    <h5>I tried my hands-on sample Kivy project (calculator).</h5>
-                </div>
-            </div>
-            
-            
-        </div>
-       
-
-        <div class="about certificate">
-            <h2 class="title2">Certificates</h2>
-            <ul>
-                <li> Google Digital Marketing 2020</li>
-            </ul>
-                
-        </div>
-
-        <div class="about strengths">
-            <h2 class="title2">Strengths</h2>
-            <ul>
-            <li><h5><i class="fa fa-check-circle-o" aria-hidden="true"></i>Adaptability and Flexibility</h5></li>
-            <li><h5><i class="fa fa-book" aria-hidden="true"></i>Commited to Lifelong Learning</h5></li>
-            </ul>
-
-        </div>
-
-        <div class="about interest">
-            <h2 class="title2">Hobby</h2>
-            <ul>
-                <li><h5><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Digital art</h5></li>
-                <li><h5><i class="fa fa-google-wallet" aria-hidden="true"></i>Desgining</h5></li>
-            </ul>
-        </div>
-        
-
-        
-    </div>
-
-    </div> 
-    
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
 <script>
-    function generatePDF(){
+    function generatePDF() {
         var element = document.getElementById('resume');
         html2pdf(element, {
-            margin:       1,
-            
-            html2canvas:  { scale: 1, logging: true, dpi: 192, letterRendering: true, windowWidth: 2240 },
-            jsPDF:        { unit: 'mm', format: 'letter',orientation: 'portrait' }
-    });
-}
-    </script>
+            margin: 1,
+
+            html2canvas: { scale: 1, logging: true, dpi: 192, letterRendering: true },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        });
+    }
+</script>
+
 </html>

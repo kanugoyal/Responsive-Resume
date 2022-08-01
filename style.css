@@ -17,8 +17,8 @@ body
 .download
 {
     position: relative;
-    margin-top: 10px;
-    vertical-align: text-top;
+    margin-bottom: 10px;
+    text-align: right;
 }
 .download .btnpdf
 {
@@ -40,9 +40,9 @@ body
    max-width: 1000px;
    min-height: 1000px; 
    background: #fff;
-   margin: 50px;
+   
    display: grid;
-   grid-template-columns: 1fr 2fr;
+   grid-template-columns: 1fr 4fr;
    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 .container .left_side
@@ -81,7 +81,7 @@ body
     object-fit: fill;
 
 }
-.profileText h2
+.profileText h4
 {
     color: #fff;
     font-size: 1.5em;
@@ -91,7 +91,7 @@ body
     font-weight: 600;
     line-height: 1.4em;
 }
-.profileText h2 span
+.profileText h4 span
 {
     font-size: 0.8em;
     font-weight: 300;
@@ -99,7 +99,7 @@ body
 }
 .contactInfo
 {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .title
 {
@@ -107,7 +107,7 @@ body
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contactInfo ul
 {
@@ -136,7 +136,7 @@ body
 }
 .contactInfo.education li
 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .contactInfo.education h5
 {
@@ -149,7 +149,7 @@ body
     font-weight: 300;
 
 }
-.contactInfo.education h4
+.contactInfo.education li h4
 {
     color: #fff;
     font-weight: 200;
@@ -177,12 +177,12 @@ body
 {
     position: relative;
     background: #fff;
-    padding: 40px
+    padding: 15px
 }
 
 .about
 {
-    margin-bottom: 50px;
+    margin-bottom: 7px;
 }
 .about:last-child
 {
@@ -205,15 +205,10 @@ p h5
     color: #333;
     font-weight: 400;
 }
-.about .box
-{
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-}
+
 .about .box .project
 {
-    min-width: 200px;
+    min-width: 150px;
 }
 .about .box .project h4
 {
@@ -228,30 +223,33 @@ p h5
     font-size:9px;
     color: #848c99;
     margin-right: 2px;
+    margin-bottom: 5px;
 }
 .about .box .text h5
 {
     color: #333;
     font-weight: 400;
     text-align: justify;
+    margin-bottom: 13px;
 }
-.skills .box
+.skills .rect
 {
     position: relative;
     width: 100%;
-    
+    display: flex;
+    flex-direction: row;
     
     justify-content: center;
     align-items: center;
 }
-.skills .box h4
+.skills .rect h4
 {
     text-transform: uppercase;
     color: #848c99;
     font-weight: 400;
     margin-right: 10px;
 }
-.skills .box h4 .btn
+.skills .rect h4 .btn
 {
     
     border: 1px solid #b0b5bd;
@@ -271,12 +269,16 @@ p h5
     font-weight: 400;
     margin: 10px 0;
 }
+.certificate ul li h5
+{
+    font-weight: 400;
+}
 .strengths ul li 
 {
     list-style: none;
     position: relative;
     
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #333;
     font-weight: 400;
     margin: 10px 0;
@@ -299,17 +301,17 @@ p h5
     list-style: none;
     color: #333;
     font-weight: 400;
-    margin: 10px 0;
+   
 }
 .interest ul li h5
 {
     color: #333;
     font-weight: 400;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .interest ul li .fa
 {
     color: #03a9f4;
     font-size: 18px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
