@@ -7,19 +7,18 @@
     <title>Resume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous"  />
     <link rel=" stylesheet" href="style.css">
-    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
-    <script src="pdf.js"></script>
+    
 
 
 
 </head>
 <body>
- 
-    <button onclick="generatePDF()" >download Pdf</button>
+    <div class="download">
+       <button class="btnpdf" onclick="generatePDF()"><span class="icon"><i class="fa fa-download" aria-hidden="true"></i></span> Download</button>
+    </div>
     
-    <div id="resume">
-     <div class= "container"> 
-       <div class="left_side">
+   <div class= "container" id="resume"> 
+     <div class="left_side">
         <div class="profileText">
             <div class="imgbx">
                 <img src="img.jpg" >
@@ -88,7 +87,7 @@
                 </li>
             </ul>
         </div>     
-       </div>
+     </div>
 
      <div class="right_side">
         <div class="about">
@@ -211,7 +210,20 @@
         
     </div>
 
-      </div>
     </div> 
+    
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+<script>
+    function generatePDF(){
+        var element = document.getElementById('resume');
+        html2pdf(element, {
+            margin:       1,
+            filename:     'Kanika-resume.pdf',
+            html2canvas:  { scale: 2, logging: true, dpi: 192, letterRendering: true },
+            jsPDF:        { unit: 'mm', format: 'letter' }
+    });
+}
+    </script>
 </html>

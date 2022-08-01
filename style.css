@@ -14,13 +14,23 @@ body
     align-items: center;
     min-height: 100vh;
 }
-.btn
+.download
 {
-    border-color:#f0f4fa ;
-    background-color:rgb(77, 104, 116)4 ;
+    position: relative;
+    margin-top: 10px;
+    vertical-align: text-top;
+}
+.download .btnpdf
+{
+    position: relative;
+    border: #003147;
+    outline: none;
+    border-radius: 5px;
+    background-color: #003147;
+    color: #c0cad9;
     text-align: center;
-    padding: 10px px;
-    color: #03a9f4;
+    padding: 5px 8px;
+
 
 }
 .container
@@ -241,16 +251,29 @@ p h5
     font-weight: 400;
     margin-right: 10px;
 }
-.skills .box h4 .btn
+.skills .box h4 .btn:hover
 {
     
-    border-color:#f0f4fa ;
+    border: #f0f4fa;
+    outline:none ;
     background-color: inherit;
     text-align: left;
     padding: 4px 6px;
     cursor: pointer;
     display: inline;
-    margin: 2px 2px;
+    margin: 2px 0px;
+}
+.skills .box h4 .btn
+{
+    
+    border: #f0f4fa;
+    outline: none;
+    background-color: inherit;
+    text-align: left;
+    padding: 4px 6px;
+    cursor: pointer;
+    display: inline;
+    margin: 2px 0px;
 }
 
 .certificate ul li
