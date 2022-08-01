@@ -251,23 +251,11 @@ p h5
     font-weight: 400;
     margin-right: 10px;
 }
-.skills .box h4 .btn:hover
-{
-    
-    border: #f0f4fa;
-    outline:none ;
-    background-color: inherit;
-    text-align: left;
-    padding: 4px 6px;
-    cursor: pointer;
-    display: inline;
-    margin: 2px 0px;
-}
 .skills .box h4 .btn
 {
     
-    border: #f0f4fa;
-    outline: none;
+    border: 1px solid #b0b5bd;
+    
     background-color: inherit;
     text-align: left;
     padding: 4px 6px;
