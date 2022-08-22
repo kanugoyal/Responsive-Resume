@@ -234,6 +234,11 @@ p h5
     text-align: justify;
     margin-bottom: 13px;
 }
+.about .box .text h5 ul
+{
+    margin-left: 20px;
+  
+}
 .skills .rect
 {
     position: relative;
