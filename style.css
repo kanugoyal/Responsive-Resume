@@ -210,7 +210,7 @@ p h5
 
 .about .box .project
 {
-    min-width: 150px;
+    min-width: 200px;
 }
 .about .box .project h4
 {
@@ -231,13 +231,12 @@ p h5
 {
     color: #333;
     font-weight: 400;
-    text-align: justify;
     margin-bottom: 13px;
 }
 .about .box .text h5 ul
 {
-    margin-left: 20px;
-    padding-left: 10px;
+    
+    padding-left: 20px;
 }
 .skills .rect
 {
