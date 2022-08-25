@@ -99,7 +99,7 @@ body
 }
 .contactInfo
 {
-    padding-top: 20px;
+    padding-top: 18px;
 }
 .title
 {
@@ -107,7 +107,7 @@ body
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 .contactInfo ul
 {
@@ -175,6 +175,7 @@ body
     background: #03a9f4;
 
 }
+
 .container .right_side
 {
     position: relative;
@@ -279,49 +280,5 @@ p h5
 {
     font-weight: 400;
 }
-.strengths ul li 
-{
-    list-style: none;
-    position: relative;
-    
-    margin-bottom: 5px;
-    color: #333;
-    font-weight: 400;
-    margin: 10px 0;
 
-}
-.strengths ul li h5
-{
-    color: #333;
-    font-weight: 400;
-    margin: 10px 0;
-}
-.strengths ul li .fa
-{
-    margin-right: 5px;
-}
-.interest ul
-{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
 
-}
-.interest ul li
-{
-    list-style: none;
-    color: #333;
-    font-weight: 400;
-   
-}
-.interest ul li h5
-{
-    color: #333;
-    font-weight: 400;
-    margin: 5px 0;
-}
-.interest ul li .fa
-{
-    color: #03a9f4;
-    font-size: 18px;
-    margin-right: 5px;
-}
