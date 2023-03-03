@@ -1,0 +1,14 @@
+Voice Assistant using Python. The assistant can open up the application like search  Google, Wikipedia, and YouTube about the query,  sound from the system, background music for mind relief, etc by just giving the voice commands
+
+Fun face filters with Python OpenCV.
+ It uses Haar features and the Mediapipe features to detect mainly faces positions, eye positions, and nose positions and use hands as a virtual mouse.
+It uses this information to overlay different accessories on the faces.
+
+
+Python-based ChatBot that answers the user's questions via text interface and voice recognition. Here I used the ChatterBot Python library, which is mainly developed for building chatbots
+
+Vehicle detection and counting system play an important role in traffic management. The proposed method uses the background subtraction technique to find foreground objects ina video sequence. To detect moving vehicles more accurately, several computer vision   techniques, including thresholding and adaptive morphology operations, are then applied.
+
+.about .box .text h5 ul
+text-align: justify;
+margin-left: 20px;
