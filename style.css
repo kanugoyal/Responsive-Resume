@@ -99,7 +99,7 @@ body
 }
 .contactInfo
 {
-    padding-top: 18px;
+    padding-top: 15px;
 }
 .title
 {
@@ -137,7 +137,7 @@ body
 }
 .contactInfo.education li
 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .contactInfo.education h5
 {
@@ -165,7 +165,7 @@ body
     height: 6px;
     background: #081921;
     display: block;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .contactInfo.language .percent div
 {
