@@ -49,7 +49,7 @@ body
 {
     position: relative;
     background: #003147;
-    padding: 30px
+    padding: 25px
 }
 
 .profileText
@@ -65,8 +65,8 @@ body
 .profileText .imgbx
 {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     overflow: hidden;
   
@@ -84,7 +84,7 @@ body
 .profileText h4
 {
     color: #fff;
-    font-size: 1.0em;
+    font-size: 0.9em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -106,7 +106,7 @@ body
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1px;
     margin-bottom: 9px;
 }
@@ -125,12 +125,12 @@ body
 {
     display: inline-block;
     width: 19px;
-    font-size:13px;
+    font-size:11px;
     color: #03a9f4;
 }
 .contactInfo ul li .text
 {
-    font-size: 13px;
+    font-size: 11px;
     color: #fff;
     font-weight: 400;
     
@@ -143,12 +143,13 @@ body
 {
     color: hsl(199, 98%, 48%);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 11px;
 }
 .contactInfo.education h4:nth-child(2)
 {
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 11px;
 
 }
 .contactInfo.education li h4
@@ -180,14 +181,14 @@ body
 {
     list-style: none;
     position: relative;
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
 }
 .strengths ul li h5
 {
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
 }
 .strengths ul li .fa
 {
@@ -209,7 +210,7 @@ body
 .interest ul li .fa
 {
     color: #03a9f4;
-    font-size: 18px;
+    font-size: 12px;
     margin-right: 5px;
 }
 
@@ -217,12 +218,12 @@ body
 {
     position: relative;
     background: #fff;
-    padding: 30px
+    padding: 25px
 }
 
 .about
 {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 .about:last-child
 {
@@ -234,13 +235,15 @@ body
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 1px;
-    font-size: 14px;
+    font-size: 12px;
     
 }
 p
 {
+    
     color: #333;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 11px;
 }
 
 
@@ -251,14 +254,14 @@ p
 .about .box .project h4
 {
     color: #848c99;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 11px;
 }
 .about .box .project h4 .icon
 {
     display: inline-block;
-    width: 6px;
-    font-size:9px;
+    width: 4px;
+    font-size:5px;
     color: #848c99;
     margin-left: 3px;
     margin-bottom: 5px;
@@ -266,25 +269,34 @@ p
 .about .box .text h5
 {
     color: #333;
-    font-weight: 400;
-    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 11px;
+    margin-bottom: 9px;
 }
 .about .box .text h5 ul
 { 
     list-style-type: none;
-    padding-left: 1px;
+    padding-left: 2px;
+    margin-bottom: 0px;
+    margin-left: 3px;
 }
+
+.about .box .text h5 ul li::marker
+{
+    font-size: 9px;
+}
+
 .about .box .text h5 ul .circle
 {
     margin-right: 6px;
-    font-size: 15px;
-
+    font-size: 11px;
 }
+
 .about .box .text h5 ul .icon
 {
     width: 4px;
-    font-size:8px;
-    color: #333;
+    font-size:5px;
+    color: #848c99;
     margin-left: 3px;
     margin-inline-end: 10px;
 }
@@ -294,28 +306,32 @@ p
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     justify-content: center;
     align-items: center;
 }
-.skills .rect h4
+.skills .rect p
 {
     text-transform: uppercase;
     color: #848c99;
     font-weight: 400;
-    margin-right: 10px;
+    font-size: 11px;
+    
+    margin-right: 8px;
 }
-.skills .rect h4 .btn
+.skills .rect p .btn
 {
     
     border: 1px solid #b0b5bd;
     
     background-color: inherit;
     text-align: left;
-    padding: 4px 6px;
+    padding: 2px 3px;
     cursor: pointer;
     display: inline;
     margin: 2px 0px;
+    font-weight: 400;
+    font-size: 11px;
 }
 
 .certificate ul li
@@ -323,25 +339,36 @@ p
     list-style: none;
     color: #333;
     font-weight: 400;
-    margin: 0px 0;
+    font-size: 11px;
+    margin-left: 4px ;
+    padding-left: 0px;
 }
+
+.certificate ul li::marker
+{
+    font-size: 9px;
+    margin-right: 3px ;
+
+}
+
 .certificate ul li h5
 {
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
 }
+
 .certificate h5 ul .circle
 {
     margin-right: 6px;
-    font-size: 15px;
-
-
+    font-size: 11px;
 }
+
+
 .certificate h5 ul .icon
 {
     width: 3px;
-    font-size:8px;
-    color: #333;
+    font-size:5px;
+    color: #848c99;
     margin-left: 3px;
     margin-inline-end: 10px;
 }
